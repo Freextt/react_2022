@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c91519d8-28dd-4da3-8ce6-3270558054f7" name="Changes" comment="Cars_api_practice">
-      <change afterPath="$PROJECT_DIR$/src/services/axios.services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Car.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/car.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/urls/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/urls/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Car.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CarForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/axios.services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/axios.services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,6 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +70,7 @@
       <workItem from="1656596327651" duration="78000" />
       <workItem from="1656608111955" duration="116000" />
       <workItem from="1656880683307" duration="2737000" />
+      <workItem from="1656946361876" duration="6893000" />
     </task>
     <task id="LOCAL-00001" summary="Master">
       <created>1656596392151</created>
