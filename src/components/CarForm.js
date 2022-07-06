@@ -1,11 +1,24 @@
 import {useForm} from "react-hook-form";
 import {carService} from "../services";
+import {useEffect} from "react";
 
-export default function CarForm({addCar}){
+const CarForm = ({addCar,carUpdate,updateCar}) => {
     const {register,handleSubmit,reset,setValue,formState:{errors}} = useForm({mode:'all'});
-    const submit = (newCar) => {
-        const {data} = carService.create(newCar);
-        addCar(data);
+    useEffect(()=>{
+        if(carUpdate){
+            setValue('model',carUpdate.model);
+            setValue('price',carUpdate.price);
+            setValue('year',carUpdate.year);
+        }
+    },[carUpdate]);
+    const submit = async (newCar) => {
+        if(!carUpdate){
+            const {data} = await carService.create(newCar);
+            addCar(data);
+        }else{
+            const {data} = await carService.updateById(carUpdate.id, newCar);
+            updateCar(data);
+        }
         reset();
     }
     return(
@@ -27,7 +40,7 @@ export default function CarForm({addCar}){
                     min: 1990,
                     max: new Date().getFullYear()
                 })}/>
-                <button>Save</button>
+                <button>{carUpdate ? 'Edit' : 'Save'}</button>
             </form>
             <div>
                 {errors.model && <div>Only alphabetic min 1 and max 20</div> }
@@ -37,3 +50,4 @@ export default function CarForm({addCar}){
         </div>
     )
 }
+export {CarForm};

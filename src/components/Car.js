@@ -1,6 +1,6 @@
 import css from './Car.module.css'
-export default function Car({car}){
-    let {id,model,price,year} = car;
+const Car = ({car,deleteCAr,setCarUpdate}) => {
+    const {id,model,price,year} = car;
     return(
         <div className={css.Car}>
             <div className={css.container}>
@@ -10,9 +10,10 @@ export default function Car({car}){
              <div>YEAR: {year}</div>
             </div>
             <div className={css.tools}>
-                <button>Edit</button>
-                <button>Delete</button>
+                <button onClick={()=> setCarUpdate(car)}>Edit</button>
+                <button onClick={()=> deleteCAr(id)}>Delete</button>
             </div>
         </div>
     )
 }
+export {Car};
