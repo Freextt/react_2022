@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950a6630-9344-4f93-bd1e-82b7af78754c" name="Changes" comment="Cars_api_practice" />
+    <list default="true" id="950a6630-9344-4f93-bd1e-82b7af78754c" name="Changes" comment="HW_5">
+      <change afterPath="$PROJECT_DIR$/src/components/Posts/Posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/albums/Albums.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/comments/Comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todos/ToDos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/fetch.services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -34,6 +51,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
@@ -47,7 +65,19 @@
       <updated>1656335460456</updated>
       <workItem from="1656335469301" duration="84000" />
       <workItem from="1656367118247" duration="96000" />
+      <workItem from="1657445100761" duration="103000" />
+      <workItem from="1657445230172" duration="8038000" />
+      <workItem from="1657531587603" duration="14171000" />
+      <workItem from="1657638904226" duration="9522000" />
     </task>
+    <task id="LOCAL-00001" summary="HW_5">
+      <created>1657147308620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657147308620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW_5" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_5" />
   </component>
 </project>
