@@ -5,7 +5,7 @@ export default function App(){
   let dispatch = useDispatch(); //*це умовно кажучи сеттер для вашого стейту стору,приклад у попередньому коментарі*/
   return(
       <div>
-          {state} {/*Вивід кутурну з індексу зі значенням 0*/}
+          {state} {/*Вивід початкового значення(стейту) з index.js зі значенням 0*/}
         <button onClick={()=>{
             dispatch({type: "Increment", payload: 1}) //функція dispatch передає тип та велью в аргумент action загального store(index.js файл)
         }}>Increment</button>
