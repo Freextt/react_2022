@@ -3,11 +3,29 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Provider} from "react-redux";
+import {createStore} from "redux";
 
+let store = createStore((state = 0,action)=>{
+    switch (action.type){
+        case "Increment":
+            let newStateInc = state + action.payload;
+            return newStateInc;
+        case "Decrement":
+            let newStateDec = state - action.payload;
+            return newStateDec;
+        case "Reset":
+            return 0;
+        default:
+            return state;
+    }
+});
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <Provider store={store}> {/*сховище глобального стану*/}
+          <App/>
+      </Provider>
   </React.StrictMode>
 );
 
