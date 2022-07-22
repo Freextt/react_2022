@@ -12,7 +12,7 @@ let usersReducer = (state = [],action) => {
          case "Load_Users":
              return [...action.payload];
          case  "Filter_Users":
-             return [...state.filter(users => users[action.payload.field] == action.payload.value)]//дозволяє динамічно звернутися до якоїсь філди
+             return [...state.filter(users => users[action.payload.field] === action.payload.value)]//дозволяє динамічно звернутися до якоїсь філди
 
          default:
              return state;
@@ -20,9 +20,9 @@ let usersReducer = (state = [],action) => {
 }
 let userReducer = (state = null,action) => {
     switch (action.type){
-        case "Load_User":
+        case "Get_user":
             let  users = action.payload.data;//з ячейки дата тягнуться юзери оскільки ми вже їх підтягнули
-            return users.find(user => user.id == action.payload.id);
+            return users.find(user => user.id === action.payload.id);
         default:
             return state;
     }

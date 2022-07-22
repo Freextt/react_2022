@@ -9,7 +9,7 @@ export default function Users(){
             {
                 users.map(user => <div key={user.id}>{user.name}
                     <button onClick={()=>{
-                        dispatch({type:"Get_User",payload: {data: users,id: user.id}});
+                        dispatch({type:"Get_user",payload: {data: users,id: user.id}});
                     }
                     }>Details</button></div>)
             }
