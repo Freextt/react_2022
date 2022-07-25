@@ -4,11 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950a6630-9344-4f93-bd1e-82b7af78754c" name="Changes" comment="HW_3" />
+    <list default="true" id="950a6630-9344-4f93-bd1e-82b7af78754c" name="Changes" comment="HW_7_part2">
+      <change afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/car/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/carForm/CarForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/car.slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/axios.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/car.services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/urls/Urls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -22,6 +42,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BA4FHdwcMpyTwKZUB8vYBOx8RE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,6 +54,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
@@ -46,6 +68,8 @@
       <updated>1656335460456</updated>
       <workItem from="1656335469301" duration="84000" />
       <workItem from="1656367118247" duration="96000" />
+      <workItem from="1658647916435" duration="13712000" />
+      <workItem from="1658753766952" duration="4288000" />
     </task>
     <servers />
   </component>
