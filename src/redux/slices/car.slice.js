@@ -8,7 +8,7 @@ const initialState = {
 };
 const getAll = createAsyncThunk(
     'carSlice/getAll',
-    async (_, {rejectWithValue, dispatch, getState}) => {
+    async (_, {rejectWithValue}) => {
         try {
             const {data} = await carServices.getAll();
             return data
