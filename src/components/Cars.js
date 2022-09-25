@@ -23,7 +23,7 @@ const Cars = () =>{
     }
     const updateCar = (car) => {
         const res = [...cars];
-        const find = res.find(value => value.id === setCarUpdate.id);
+        const find = res.find(value => value.id === carUpdate.id);
 
         if (find) {
             Object.assign(find, car)
